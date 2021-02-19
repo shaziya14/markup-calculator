@@ -1,0 +1,93 @@
+
+body {
+    background: #333 url("img1.jpg") center/cover no-repeat;
+    color: #524a49;
+    /* font-weight: bold; */
+    /* font-family: cursive fantasy; */
+}
+
+#myForm {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url("img2.jpg") top left repeat;
+    text-align: center;
+    border-radius:  5px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom:  solid 1px #ddd;
+}
+
+form {
+    text-align: center;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin: 25px 0;
+}
+
+form input,
+form select{
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input[type=text],
+form input[type=number] {
+    width: 90px;
+    height: 5 px;
+}
+
+
+button {
+    background-color: #524a49; 
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100% ;
+}
+
+button:hover {
+    background-color: hsl(0, 5%, 20%);
+    border-bottom: solid 4px #111;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+#reset {
+    margin: 20px 0;
+    margin-left: 21em;
+    width: 25%;
+    font-size: 0.8em;
+    text-align: center;
+    /* line-height: 30%; */
+    padding: 20px 20px;
+    border-radius: 0.4em;
+    
+}
+
+#comment {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+#sellingPrice {
+    font-size: 40px;
+    margin: 40px;
+}
+
+#each {
+    font-size: 15px;
+}

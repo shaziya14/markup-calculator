@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markup Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myForm">
+
+        <h1>Markup Calculator</h1>
+
+        <form>
+            <label>
+                What's your Cost Price? <br>
+                $   <input type="text" id="costPrice"><br>
+            </label>
+
+            <label>
+                How many Pallets? <br>
+                <input type="number" id="pallets"><br>
+            </label>
+
+            <!-- <label>
+                What's your markup %? <br>
+                <select id="mPercent">
+                    <option disbaled selected value="0">--- Choose an option --- </option>
+                    <option value="0.35">35%</option>
+                    <option value="0.45">45%</option>
+                </select>
+            </label> -->
+            <button type="button" id="calculate">Calculate</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+
+        <div id="sellingPrice"> 
+            <p id="comment">SD your Selling Price would be:</p>
+            <sup>$</sup><span id="sp">0.00</span>
+           <span id="each">each</span>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
